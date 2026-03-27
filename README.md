@@ -9,12 +9,16 @@ Targeting Delivery Latency and Supply-Demand Dynamics using DoorDash Data
 
 # Group Members & Responsibilities
 Mingtian Chen: Lead Architect (Feature Engineering, Model Selection).
+
 Shidian Tian: Data Engineer (ETL pipeline, handling nulls/outliers).
+
 Linchong Hu: Insights Lead (EDA, Visualizing supply/demand curves).
+
 Wenyu Yang: Statistical Lead (Hypothesis testing, P-value calculation, final interpretation).
 
 # Data Source
 Kaggle Dataset Link: https://www.kaggle.com/datasets/dharun4772/doordash-eta-prediction?resource=download 
+
 We will use a publicly available DoorDash delivery dataset (historical_data.csv) containing approximately 197,000 records. Each row represents a delivery order with structured features including timestamps, order details, store information, and marketplace conditions (e.g., number of available and busy dashers).
 The dataset satisfies the project requirements:
 It is publicly available and legal to use
